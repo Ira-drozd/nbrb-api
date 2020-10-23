@@ -2,7 +2,7 @@
 
 This project was create with React JS + Redux.
 
-Portfolio (Site for commerce and Pet-projects) and summary [https://github.com/Ira-drozd/Summary-PDF.git] 
+Portfolio (Site for commerce and Pet-projects) and summary [https://github.com/Ira-drozd/Summary-PDF.git](https://github.com/Ira-drozd/Summary-PDF.git) 
 
 ### `For start:`
 
