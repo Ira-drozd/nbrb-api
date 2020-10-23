@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Chart from "./components/Currency/Currency";
+//import {connect} from "react-redux";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Chart/>
   );
 }
 
+/*const mapStateToProps = (state) => ({
+    currency: state.currency.currency,
+    loading: state.currency.loading
+})
+
+const mapDispatchToProps = (dispatch) => ({
+    // fetchCurrency: () => dispatch(fetchCurrency()),
+    // setCurrentPage: (page) => dispatch(setCurrentPage(page))
+})*/
+
+// export default connect(mapStateToProps, mapDispatchToProps)(App);
 export default App;
